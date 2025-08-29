@@ -7,8 +7,9 @@ A collection of MATLAB/Simulink models for simulating various DC-DC power conver
 
 | Converter | Description | Model File |
 | :--- | :--- | :--- |
+| **Buck** | Step-down converter. | `buck_converter.slx` |
+| **Boost** | Step-up converter. | `boost_converter.slx` |
 | **Buck-Boost** | Inverting converter that can step-up or step-down voltage. | `buck_boost_model.slx` |
-| *More coming soon!* | | |
 
 ## 🚀 How to Run
 
@@ -36,6 +37,38 @@ A collection of MATLAB/Simulink models for simulating various DC-DC power conver
 - A regulated **-12 V** output with small ripple.
 - Inductor current is a triangular wave with an avg. of **~2.4 A**.
 - Output current is a DC value of **-1.2 A**.
+
+  ## ⚙️ Buck Model Details
+
+**Parameters:**
+- **Input Voltage:** 24 V
+- **Output Voltage:** 12 V
+- **Switching Frequency:** 50 kHz
+- **Duty Cycle:** 50%
+- **Inductor:** 180 µH
+- **Capacitor:** 22 µF
+- **Load:** 5 Ω
+
+**Expected Results:**
+- A regulated **12 V** output with small ripple.
+- Inductor current is a triangular wave with an avg. of **~1.2 A**.
+- Output current is a DC value of **1.2 A**.
+
+## ⚙️ Boost Model Details
+
+**Parameters:**
+- **Input Voltage:** 12 V
+- **Output Voltage:** 24 V
+- **Switching Frequency:** 50 kHz
+- **Duty Cycle:** 50%
+- **Inductor:** 180 µH
+- **Capacitor:** 47 µF
+- **Load:** 20 Ω
+
+**Expected Results:**
+- A regulated **24 V** output with small ripple.
+- Inductor current is a triangular wave with an avg. of **~2.4 A**.
+- Output current is a DC value of **1.2 A**.
 
 ## 🔧 Solver Settings
 
