@@ -41,6 +41,11 @@ A collection of MATLAB/Simulink models for simulating various DC-DC power conver
 
 For best results, models use variable-step solver `ode15s` with a max step size of `400e-9 s`.
 
+## 👨‍💻 Author
+**Hadi Rafat Talab**  
+*GitHub:* [@hadi0r0t](https://github.com/hadi0r0t)  
+*Email:* hadi0r0t@gmail.com
+
 ## 📝 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
