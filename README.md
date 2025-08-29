@@ -15,10 +15,10 @@ A collection of MATLAB/Simulink models for simulating various DC-DC power conver
 
 1.  Clone this repository.
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/hadi0r0t/buckboostconverter.slx
     ```
 2.  Open MATLAB and navigate to the project folder.
-3.  Open the desired model file (e.g., `buck_boost_model.slx`).
+3.  Open the desired model file (e.g., `buckboostconverter.slx`).
 4.  Click the **"Run"** button in Simulink.
 5.  Double-click on the **Scope** blocks to view the results.
 
